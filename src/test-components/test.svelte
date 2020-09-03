@@ -20,4 +20,4 @@
 <button on:click={add}>Add</button>
 <button on:click={remove}>Remove</button>
 
-<Test1 length={arr.length} />
+<Test1 {arr} on:add={add} on:remove={remove} />
